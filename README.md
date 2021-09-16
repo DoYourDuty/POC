@@ -1,4 +1,7 @@
 # POC
+
+
+```csharp
 public static void ConvertPDFtoTiff(string orgFileName)
         {
             FileInfo fi = new FileInfo(orgFileName);
@@ -67,3 +70,4 @@ public static void ConvertPDFtoTiff(string orgFileName)
             doc.Dispose();
             return;
         }
+```
